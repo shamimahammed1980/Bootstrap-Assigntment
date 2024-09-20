@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.large-text{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    margin-top: 250px;
+}
+.col{
+    width: 600px;
+    height: 700px;
+    object-fit: cover;   
+}
+
+/*portfolio section*/
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    
+}
+ .row .colum{
+    flex:auto;
+    width: 100%;
+    object-fit: cover; 
+    overflow: hidden;
+    padding: 0 4px;
+    height: 100%;
+
+}
+ .row .colum img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 100%;
+}
+
+.row ins_div{
+    display: grid;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.col ins_div{
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding-bottom: 4px;
+}
+
